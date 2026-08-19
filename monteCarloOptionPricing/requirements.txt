@@ -1,0 +1,6 @@
+numpy
+math
+yfinance
+matplotlib
+scipy
+pandas
