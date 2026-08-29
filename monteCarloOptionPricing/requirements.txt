@@ -1,6 +1,5 @@
-numpy
-math
-yfinance
 matplotlib
-scipy
+numpy
 pandas
+scipy
+yfinance
