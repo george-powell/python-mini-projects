@@ -234,5 +234,6 @@ class OptionPricer:
         ax_hist.tick_params(axis="y", labelleft=False)
 
         plt.show()
+        plt.close()
 
         return mean_Vn
