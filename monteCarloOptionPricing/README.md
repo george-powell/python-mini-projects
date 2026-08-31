@@ -29,7 +29,7 @@ The simulated GBM paths and resulting terminal price distribution are shown belo
 The Monte Carlo estimate converges towards the analytical Black-Scholes price as the number of simulations increases.
 The standard error decreases as the number of simulations increases. A linear regression on the log-log relationship gives an experimental convergence exponent of **-0.494**, close to the theoretical value of $-0.5$.
 
-![Monte Carlo convergence](monte_carlo_convergence.png)
+![Monte Carlo convergence](images/monte_carlo_convergence.png)
 
 ### Antithetic Variates
 
@@ -37,7 +37,7 @@ Antithetic variates were implemented by generating paired paths using $Z$ and $-
 
 Using the same number of simulated paths, antithetic variates reduced estimator variance by **72.4%** compared with ordinary Monte Carlo.
 
-![Antithetic variates](antithetic_variates.png)
+![Antithetic variates](images/antithetic_variates.png)
 
 ## Motivation
 
