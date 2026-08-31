@@ -235,5 +235,5 @@ class OptionPricer:
 
         plt.show()
         plt.close()
-
+        
         return mean_Vn
